@@ -15,7 +15,7 @@ function App() {
           
       <ContextMenu animation="fade" id="test" style={{ zIndex: 10 }} >
       <Item
-      onClick={() => window.alert("Hello bug ! ")} id="test2" data-cy="add-new-item-tree-button">
+      onClick={() => window.alert("Hello bug !")} id="test2" data-cy="add-new-item-tree-button">
       test menu
   </Item>
       </ContextMenu>
